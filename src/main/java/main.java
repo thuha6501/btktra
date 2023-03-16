@@ -12,8 +12,8 @@ public class main {
         System.out.println("--- QUẢN LÝ SẢN PHẨM ---");
         System.out.println("1. Danh sách sinh viên");
         System.out.println("2. Thêm một sinh viên mới");
-        System.out.println("3. Cập nhập thông tin sinh viên");
-        System.out.println("4. Xóa một sinh viên theo mã");
+        System.out.println("4. Cập nhập thông tin sinh viên");
+        System.out.println("3. Xóa một sinh viên theo mã");
         System.out.println("5. Tìm một sinh viên theo họ và têm hoặc mẫ gần đúng");
         System.out.println("5. Sắp xếp sinh viên theo điểm số GPA tng dần");
         System.out.println("7. in ra tất cả sinh viên nữ ở Hà Nội có GPA trên 2.5");
