@@ -26,7 +26,16 @@ public class main {
         System.out.println();
         for (int i = 0; i < studentList.size(); i++) {
             Student s = studentList.get(i);
-            System.out.printf("%-20d %-20s %-20d %-20s\n", (i+1), s.getFull_name(), s.getGender(),s.getAddress());
+            String gioitinh;
+            if(s.getGender()==1)
+            {
+                gioitinh="nu";
+            }
+            else
+            {
+                gioitinh="nam";
+            }
+            System.out.printf("%-20d %-20s %-20s %-20s\n", (i+1), s.getFull_name(), gioitinh,s.getAddress());
         };
     }
 
