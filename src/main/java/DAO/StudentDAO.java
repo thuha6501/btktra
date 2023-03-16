@@ -101,7 +101,7 @@ public class StudentDAO {
             throw new RuntimeException("id không tồn tại!");
         }
 
-        final String sql = String.format("UPDATE `students` SET `full_name`='%s',`gender`='%s',`date`='%s',`address`='%s',`phone`='%s',`email`='%s'`mark`='%f' WHERE `id` = '%d'",
+        final String sql = String.format("UPDATE `students` SET `full_name`='%s',`gender`='%s',`date`='%s',`address`='%s',`phone`='%s',`email`='%s',`mark`='%f' WHERE `id` = '%s'",
                 student.getFull_name(), student.getGender(), student.getDate(), student.getAddress(),student.getPhone(),student.getEmail(),student.getMark(), id
         );
         try {
